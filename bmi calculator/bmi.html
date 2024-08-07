@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bmi.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>BMI Calculator</h1>
+      <form>
+        <p>
+          <label>height in cm:</label>
+          <input type="text" id="height" />
+        </p>
+        <p>
+          <label>weight in kg:</label>
+          <input type="text" id="weight" />
+        </p>
+        <button id="calculate">calculate</button>
+        <div id="result"></div>
+        <div class="guide">
+          <h3>BMI weight guide</h3>
+          <p>BMI>18.5 then you are under weight.</p>
+          <p>BMI is between 18.5 and 24.9 then you are fit.</p>
+          <p>BMI is more than 24.9 then you are overweight.</p>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="bmi.js"></script>
+</html>
